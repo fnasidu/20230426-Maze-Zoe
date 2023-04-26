@@ -1,0 +1,20 @@
+.run {
+  position: absolute;
+  left: 200px;
+  bottom: 0px;
+
+  animation-name: run1, run2;
+  animation-duration: 3s;
+}
+
+@keyframes run1 {
+  to {
+    transform: translateY(-315px);
+  }
+}
+
+/* @keyframes run2 {
+  to {
+    transform: translateX(50px);
+  }
+} */
