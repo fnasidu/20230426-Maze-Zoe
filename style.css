@@ -4,17 +4,18 @@
   bottom: 0px;
 
   animation-name: run1, run2;
+  animation-fill-mode: forwards;
   animation-duration: 3s;
 }
 
 @keyframes run1 {
   to {
-    transform: translateY(-315px);
+    bottom: 315px;
   }
 }
 
-/* @keyframes run2 {
+@keyframes run2 {
   to {
-    transform: translateX(50px);
+    left: 360px;
   }
-} */
+}
